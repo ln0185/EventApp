@@ -7,7 +7,7 @@ import UserIcon from "../../assets/resources/user.svg";
 const Navbar: React.FC = () => {
   return (
     <>
-      <nav className="w-full bg-sagnir-100 fixed bottom-0 border-t border-s-sagnir-200">
+      <nav className="w-full bg-white fixed bottom-0 border-t border-black">
         <ul className="flex justify-around items-center py-4">
           {/* Home Icon */}
           <li onClick={() => "Home"}>
